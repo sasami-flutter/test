@@ -12,18 +12,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'flutter学習',
-      home: const MyHomePage(),
+      home: const TestFlutter(),
     );
   }
 }
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class TestFlutter extends StatefulWidget {
+  const TestFlutter({Key? key}) : super(key: key);
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<TestFlutter> createState() => _TestFlutterState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _TestFlutterState extends State<TestFlutter> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
